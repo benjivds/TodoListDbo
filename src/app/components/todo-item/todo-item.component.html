@@ -1,0 +1,6 @@
+<div class="todo-item">
+    {{ item.title }}
+    <button *ngIf="!item.initlist" class="btn btn-red" (click)="removeItem()">
+        remove
+    </button>
+</div>
